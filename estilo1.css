@@ -1,61 +1,135 @@
 * {
-    
+
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 
-.menu{ margin: 35px;}
+.menu {
+    margin: 20px 43px;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .menu li {
-    display: inline; margin: 15px;
+    display: inline;
+    padding: 15px;
 }
 
 nav {
-    text-align: center; 
+    width: 100%;
 
+
+}
+
+nav li:hover {
+    background-color:  rgb(214, 177, 121);
+    color: white;
+    border-radius: 10px;
 }
 
 .conteiner {
     width: 100%;
-    border-bottom: 0.1em solid;
-    display: flex; 
+
+    display: flex;
 
 
 }
 
 .nombre {
+    width: 25%;
     font-weight: bold;
-    font-size: 40px; 
-    margin-top: 0;
-    padding: 0px;
+    font-size: 60px;
+
 
 }
 
 .profile-conteiner {
-    width: 1300px;
+    width: 75%;
     text-align: justify;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-left: 60px;
+    padding-right: 25px;
 
 }
 
 #resaltado {
-    width: 610px;
+    width: 363px;
     font-size: 25px;
     background-color: navajowhite;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 0;
+    color: gray;
 }
 
-.education{
+.HName {
+    margin: 0;
+}
+
+.education {
+    width: calc(100% - 60px);
+    padding-left: 60px;
+
+
+
+}
+
+.education-container {
     width: 100%;
-   padding-left: 25px;
-   padding-right: 25px;
-    
-}
-
-.education-container{ display: flex;}
-
-.education-element{
-    width: 60%;
+    display: flex;
     text-align: justify;
+
 }
 
+.education-element {
+    padding-right: 25px;
+    width: 50%;
+
+}
+
+.borde {
+    padding-left: 25px;
+    border-left: 1px solid black;
+    padding-right: 60px;
+    margin-bottom: 30px;
+
+}
+
+.bar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.bar {
+    background-color: rgb(205, 203, 203);
+    width: 100%;
+    height: 12px;
+
+}
+
+.bar-inside {
+    background-color: navajowhite;
+    height: 12px;
+}
+
+hr {
+    width: calc(100% - 120px);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#hobbies-container {
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+
+}
+
+.color {
+    color: rgb(214, 177, 121);
+}
